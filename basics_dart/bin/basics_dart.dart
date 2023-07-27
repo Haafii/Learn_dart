@@ -68,4 +68,12 @@ void main() {
   //set
   Set<int> numberSet = {0, 0, 0, 9, 9, 2, 3, 4, 24};
   print(numberSet); //print {0, 9, 2, 3, 4, 24} only print unique elements
+
+  //map
+  Map<String, String> details = {
+    //key value pair in here key and value are string
+    'name': 'Hafi',
+    'address': 'Kozhikode',
+    'phone': '1234567890'
+  };
 }
