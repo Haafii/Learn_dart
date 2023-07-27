@@ -25,4 +25,20 @@ void main() {
   String address = ''' My name is Hafi
   place is kozhikode'''; //multiline
   print(name.length); //get length of the string name
-}
+  print(name2.toUpperCase()); //convert to uppercase
+  print(name2.toLowerCase()); //convert to lowercase
+  print(name2.contains('Hafi')); //check if the string contains Hafi
+  print(name2.substring(5)); //get substring from index 5
+  print(name2.substring(5, 8)); //get substring from index 5 to 8
+  print(name2.split(' ')); //split the string by space
+  print(name2.split(' ')[0]); //split the string by space and get the first part
+
+  //control statements
+  var age = 18;
+  if (age > 18) {
+    print("You are eligible");
+  } else if (age == 18) {
+    print("You are 18");
+  } else {
+    print("You are not eligible");
+  }
