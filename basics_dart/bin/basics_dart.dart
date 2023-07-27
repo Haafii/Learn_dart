@@ -18,4 +18,11 @@ void main() {
   double ac = 10; //floating number
   num number1 = 10; //integer
   num number2 = 10.5; //floating number
+
+  //string
+  String name = 'Hafi';
+  String name2 = 'I\'am Hafi';
+  String address = ''' My name is Hafi
+  place is kozhikode'''; //multiline
+  print(name.length); //get length of the string name
 }
