@@ -64,4 +64,8 @@ void main() {
     [4, 5, 6]
   ];
   print(list[0][0]);
+
+  //set
+  Set<int> numberSet = {0, 0, 0, 9, 9, 2, 3, 4, 24};
+  print(numberSet); //print {0, 9, 2, 3, 4, 24} only print unique elements
 }
