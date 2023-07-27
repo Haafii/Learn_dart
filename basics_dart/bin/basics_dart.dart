@@ -76,4 +76,8 @@ void main() {
     'address': 'Kozhikode',
     'phone': '1234567890'
   };
+  print(details['name']); //get the value of name
+  details['name'] = 'Hafizh'; //change the value of name
+  details.remove('phone'); //remove the phone key value pair
+  print(details.containsKey('name')); //check if the map contains name key
 }
