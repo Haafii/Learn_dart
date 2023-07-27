@@ -47,4 +47,8 @@ void main() {
   for (var i = 0; i < 10; i++) {
     print(i);
   }
+
+  //list
+  var names = ['Hafi', 'Hafiz', 'Hafizh'];
+  List<int> numbers = [10, 11, 12];
 }
