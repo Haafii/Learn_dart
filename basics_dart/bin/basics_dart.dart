@@ -50,5 +50,14 @@ void main() {
 
   //list
   var names = ['Hafi', 'Hafiz', 'Hafizh'];
-  List<int> numbers = [10, 11, 12];
+  List<int> numbers = [10, 11, 12]; 
+  print(names[0]); //get the first element
+  print(names.length); //get the length of the list
+  names.add('Hafizh'); //add new element to the list
+  names.remove('Hafizh'); //remove element from the list
+  names.removeAt(0); //remove element at index 0
+  names.clear(); //clear the list
+  print(names.contains('Hafi')); //check if the list contains Hafi
+  print(names.indexOf('Hafi')); //get the index of Hafi
 }
+
