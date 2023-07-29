@@ -12,6 +12,10 @@ class Person {
     //named constructor
     print(name);
   }
+  void sayHai() {
+    //function in class
+    print("Hii");
+  }
 }
 
 void main(List<String> arguments) {
@@ -20,4 +24,5 @@ void main(List<String> arguments) {
   // print(person.name);
   // print(person.age);
   final person = Person.ageBellow50("Hafiiiii", 25);
+  person.sayHai();
 }
